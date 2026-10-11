@@ -11,3 +11,46 @@
 .font_bebas{
     font-family: "Bebas Neue", sans-serif;
 }
+.yellow_color{
+    color: #ffb91a;
+}
+.bg_red{
+    background-color: #a5141a;
+}
+.my_link{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* start header  */
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url('../imgs/main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.header_box{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+.header_contant{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+.header_title1{
+    font-size: 35px;
+}
+.header_title2{
+    font-size: 95px;
+    color: #fff ;
+    line-height: 1.2;
+    margin: 50px 0;
+}
+/* end header  */
