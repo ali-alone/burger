@@ -15,7 +15,7 @@ body{
     font-family: "Bebas Neue", sans-serif;
 }
 .yellow_color{
-    color: #ffb91a;
+    color: #ffb91a!important;
 }
 .bg_red{
     background-color: #a5141a;
@@ -27,6 +27,75 @@ body{
     border-radius: 10px;
     font-size: 20px;
 }
+/* start nav  */
+nav{
+    background-color: aqua;
+}
+.nav_box{
+    background-color: blue;
+    width: 85%;
+    margin: 0 auto;
+}
+.nav_contant{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    border-radius: 0 0 40px 40px ;
+    align-items: baseline;
+}
+.nav_social_icons{
+
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+#facebook i{
+    text-decoration: none;
+    color: black;
+}
+.nav_social_icons i{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 6px;
+}
+
+.nav_links{
+    background-color: pink;
+    list-style-type: none;
+    display: flex;
+    width: 20%;
+}
+.nav_brand{
+
+}
+.nav_shop{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+.nav_links li:hover a{
+    color:  #ffb91a
+}
+.nav_brand a{
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 5px;
+}
+.nav_shop a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end nav  */
 /* start header  */
 header{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url('../imgs/main.jpg');
