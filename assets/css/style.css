@@ -29,11 +29,14 @@ body{
 }
 /* start nav  */
 nav{
-    background-color: aqua;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
 }
 .nav_box{
-    background-color: blue;
-    width: 85%;
+
+    width: 75%;
     margin: 0 auto;
 }
 .nav_contant{
@@ -60,13 +63,10 @@ nav{
 }
 
 .nav_links{
-    background-color: pink;
     list-style-type: none;
     display: flex;
-    width: 20%;
-}
-.nav_brand{
-
+    justify-content: center;
+    width: 30%;
 }
 .nav_shop{
     width: 10%;
@@ -82,7 +82,7 @@ nav{
     padding: 0 5px;
     margin: 0 10px;
 }
-.nav_links li:hover a{
+.nav_links>li:hover>a{
     color:  #ffb91a
 }
 .nav_brand a{
@@ -95,6 +95,31 @@ nav{
     text-decoration: none;
     color: #fff;
 }
+.nav_links>li>ul{
+    background-color: #ffb91a;
+    list-style-type: none;
+    padding: 10px 0;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.nav_links>li>ul a{
+    padding: 5px 0;
+    display: block;
+    color: black;
+}
+.nav_links>li>ul a:hover{
+    color: white;
+}
+.nav_links>li{
+    position: relative;
+}
+.nav_links>li:hover ul{
+    display: block;
+}
+
 /* end nav  */
 /* start header  */
 header{
@@ -102,7 +127,7 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 110vh;
 }
 .header_box{
     height: 100%;
