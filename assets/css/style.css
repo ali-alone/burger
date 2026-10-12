@@ -85,7 +85,9 @@ header{
     width: 100px;
 }
 .category_item h3{
-    margin-top: 20px;
     letter-spacing: 1px;
+}
+.category_item_img{
+    height: 110px;
 }
 /* end category  */
