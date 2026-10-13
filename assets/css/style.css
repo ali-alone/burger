@@ -185,3 +185,28 @@ header{
     height: 110px;
 }
 /* end category  */
+/* start offer  */
+.offer{
+    background-color: red;
+    padding: 80px 0;
+}
+.offer_box{
+    width: 85%;
+    margin: 0 auto;
+
+}
+.offer_items{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+
+}
+.offer_right{
+    background-color: pink;
+    width: 48%;
+}
+.offer_left{
+    background-color: green;
+    width: 48%;
+}
+/* end offer  */
