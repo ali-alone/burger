@@ -209,4 +209,30 @@ header{
     background-color: green;
     width: 48%;
 }
+.offer_item{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../imgs/special-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 120px 45px;
+    color: #fff;
+}
+.offer_item_title{
+    font-size: 45px;
+    line-height: 1.1;
+    padding-bottom: 20px;
+}
+.category_item_text{
+    font-size: 15px;
+    margin: 14px 0;
+    line-height: 1.5;
+}
+.offer_item span{
+    display: block;
+    margin-bottom: 65px;
+    font-size: 35px;
+    padding-top: 20px;
+
+}
 /* end offer  */
