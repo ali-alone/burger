@@ -328,3 +328,24 @@ header{
     padding-top: 15px;
 }
 /* end deliver  */
+/* start yellow banner */
+.yellow_banner{
+    background-color: #ffb91a;
+    padding: 30px 0;
+}
+.yellow_banner_items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.yellow_banner_text{
+    text-align: center;
+}
+.yellow_banner_text p{
+    color: #fff;
+    font-size: 40px;
+}
+.yellow_banner_text span{
+    color: #fff;
+    font-size: 12px;
+}
+/* end yellow banner */
