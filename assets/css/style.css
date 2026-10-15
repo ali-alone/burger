@@ -33,6 +33,10 @@ body{
     padding: 20px 50px;
     border-radius: 10px;
     font-size: 20px;
+    transition-duration: 0.3s;
+}
+.my_link:hover{
+    background-color: #ffb91a;
 }
 /* start nav  */
 nav{
@@ -301,3 +305,26 @@ header{
     margin-bottom: 35px ;
 }
 /* end concerning  */
+/* start deliver */
+.deliver{
+    background-image: url("../imgs/delivery.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.deliver_items{
+    text-align: center;
+}
+.deliver_items span{
+    font-size: 30px;
+}
+.deliver_items h6{
+    color: #fff;
+    font-size: 100px;
+    font-weight:500 ;
+    line-height: 1;
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+/* end deliver  */
