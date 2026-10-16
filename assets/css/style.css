@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     height: 10000px;
@@ -397,12 +398,13 @@ header{
 /* end suggest  */
 /* start recommended  */
 .recommended{
-    background-color: red;
-    padding: 80px 0;
+    background-color: #f8f8f8;
+    padding: 60px 0;
 }
 .sec_top{
     text-align: center;
     padding: 30px 0;
+    margin-bottom: 30PX;
 }
 .sec_top_title1{
     display: block;
@@ -415,5 +417,55 @@ header{
 }
 .sec_top p{
     color: gray;
+}
+.recommended_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recommended_item{
+    background-color: white;
+    width:44% ;
+    border-radius: 12px;
+    padding: 35px 30px;
+    box-shadow: rgba(149,157,165,0.2) 0 8px 24px;
+    display: flex;
+    border: 1px solid transparent;
+    margin: 10px 0;
+}
+.recommended_item:hover{
+    border-color: #ffb91a;
+    transition-duration: 0.3s;
+}
+.recommended_item_img{
+    width: 55%;
+}
+.recommended_item_img img{
+    width: 75%;
+}
+.recommended_item_info{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.recommended_item_info h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.recommended_item_info span{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.recommended_item_info p{
+    color: gray;
+}
+.recommended_item_info a{
+    font-size: 22PX;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
 }
 /*  end recommended  */
