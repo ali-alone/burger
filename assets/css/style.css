@@ -349,3 +349,48 @@ header{
     font-size: 12px;
 }
 /* end yellow banner */
+/* start suggest  */
+.suggest{
+    padding: 90px 0;
+}
+.suggest_items{
+
+    display: flex;
+    justify-content: space-between;
+}
+.suggest_right{
+    background-color: #a5141a;
+    border-radius: 10px;
+    width: 35%;
+    text-align: justify;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.suggest_left{
+    width: 45%;
+}
+.suggest_left img{
+    width: 75%;
+}
+.suggest_right>p{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.suggest_right_text{
+    margin-bottom: 20px;
+}
+.suggest_right_text p{
+    color:#fff;
+    font-size: 20px;
+}
+.suggest_right_text span{
+    color: rgba(255,255,255,1);
+    font-size: 10px;
+    letter-spacing: 1.3px;
+}
+/* end suggest  */
