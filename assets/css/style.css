@@ -354,26 +354,27 @@ header{
     padding: 90px 0;
 }
 .suggest_items{
-
     display: flex;
     justify-content: space-between;
 }
 .suggest_right{
     background-color: #a5141a;
     border-radius: 10px;
-    width: 35%;
+    width: 40%;
     text-align: justify;
     padding: 50px 40px;
+    margin-left: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 100px;
+
 }
 .suggest_left{
-    width: 45%;
+    width: 55%;
 }
 .suggest_left img{
     width: 75%;
+    padding: 0 90px;
 }
 .suggest_right>p{
     color: #fff;
@@ -394,3 +395,25 @@ header{
     letter-spacing: 1.3px;
 }
 /* end suggest  */
+/* start recommended  */
+.recommended{
+    background-color: red;
+    padding: 80px 0;
+}
+.sec_top{
+    text-align: center;
+    padding: 30px 0;
+}
+.sec_top_title1{
+    display: block;
+    font-size: 32px;
+}
+.sec_top_title2{
+    font-size: 55px;
+    margin: 20px 0;
+    display: inline-block;
+}
+.sec_top p{
+    color: gray;
+}
+/*  end recommended  */
